@@ -1,0 +1,19 @@
+plots/
+saved/
+saved_0.5mr/
+backup_files/
+animations/
+debug_files/
+heatmap_plots/
+runs/
+__pycache__/
+individual_players/
+# ignore files
+*.xml
+*.txt
+*.json
+*.npy
+*.csv
+*.pyc
+*.pickle
+*.jpg

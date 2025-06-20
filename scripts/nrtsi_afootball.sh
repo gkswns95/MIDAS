@@ -1,0 +1,35 @@
+CUDA_VISIBLE_DEVICES=0 \
+python train.py \
+--trial 9999 \
+--dataset afootball \
+--model nrtsi \
+--missing_pattern uniform \
+--missing_rate 0.5 \
+--player_order xy_sort \
+--team_size 6 \
+--single_team \
+--n_features 2 \
+--window_size 50 \
+--window_stride 5 \
+--n_epochs 3100 \
+--start_lr 1e-4 \
+--min_lr 1e-5 \
+--clip 10 \
+--batch_size 128 \
+--print_every_batch 50 \
+--save_every_epoch 50 \
+--seed 100 \
+--cuda \
+--n_max_time_scale 100 \
+--time_enc_dim 8 \
+--att_dim 128 \
+--model_dim 1024 \
+--inner_dim 2048 \
+--time_dim 72 \
+--expand_dim 5 \
+--n_layers 8 \
+--n_heads 12 \
+--n_max_level 4 \
+--use_ta \
+--stochastic \
+--use_mask \

@@ -1,0 +1,24 @@
+CUDA_VISIBLE_DEVICES=0 \
+python train.py \
+--trial 9999 \
+--dataset soccer \
+--model graph_imputer \
+--missing_pattern playerwise \
+--missing_rate 0.5 \
+--normalize \
+--flip_pitch \
+--team_size 11 \
+--n_features 2 \
+--window_size 200 \
+--window_stride 5 \
+--n_epochs 100 \
+--start_lr 1e-3 \
+--min_lr 1e-5 \
+--batch_size 16 \
+--print_every_batch 50 \
+--save_every_epoch 50 \
+--seed 100 \
+--cuda \
+--rnn_dim 64 \
+--std_dim 44 \
+--kld_weight_float 1 \
