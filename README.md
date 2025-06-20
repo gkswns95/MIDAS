@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>
-		Hybrid Imputation
+		MIDAS
 	</h1>
 </div>
 The code corresponding to the paper “Trajectory Imputation in Multi-Agent Sports with
